@@ -10,13 +10,13 @@ import (
 func Read(filename string, sep string) ([]string, error) {
 
 	sampleFile, err := os.ReadFile(filename)
-	check(err)
+	Check(err)
 
 	return strings.Split(string(sampleFile), sep), err
 
 }
 
-func check(err error) {
+func Check(err error) {
 	if err != nil {
 		panic(err)
 	}
