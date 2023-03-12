@@ -19,7 +19,7 @@ func TestWrite(t *testing.T) {
 }
 
 func TestRead(t *testing.T)  {
-	_, err := Read("a.txt", " ")
+	_, err := Read("a.txt")
 
 	if err != nil {
 		t.Errorf("Error")
