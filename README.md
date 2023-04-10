@@ -3,7 +3,7 @@
 <h2> Usage : </h2>
 
 ```console
-  go get github.com/Bakarseck/file
+  go get github.com/Bakarseck/bakar
  ```
  
  <h2> Authors </h2>
