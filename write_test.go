@@ -1,4 +1,4 @@
-package bakar
+package file
 
 import (
 	"strings"
